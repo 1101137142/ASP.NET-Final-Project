@@ -12,6 +12,23 @@
   <object id="courseDao" type="KuasCore.Dao.Impl.CourseDao, KuasCore">
     <property name="AdoTemplate" ref="adoTemplate" />
   </object>
+
+
+  <object id="FoodMenuController" scope="request" singleton="false" type="KuasWebApp.Controllers.FoodMenuController, KuasWebApp">
+    <property name="FoodMenuService" ref="FoodMenuService" />
+  </object>
+  
+  <object id="FoodMenuService" type="KuasCore.Services.Impl.FoodMenuService, KuasCore">
+    <property name="FoodMenuDao" ref="FoodMenuDao" />
+  </object>
+
+  <object id="FoodMenuDao" type="KuasCore.Dao.Impl.FoodMenuDao, KuasCore">
+    <property name="AdoTemplate" ref="adoTemplate" />
+  </object>
+  
+  
   
 
 </objects>
+
+
