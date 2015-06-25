@@ -166,6 +166,7 @@
     <Content Include="Global.asax" />
     <Content Include="Views\Course.html" />
     <Content Include="Views\FoodMenuEdit.html" />
+    <Content Include="Views\FoodMenuIndex.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
